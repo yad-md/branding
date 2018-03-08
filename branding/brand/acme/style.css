@@ -1,0 +1,59 @@
+html, body {
+  font-family: "Roboto Condensed", serif;
+}
+
+#splash .login {
+  background-image: url('/brand/logo-splash.png');
+}
+
+#sidebar .openstack-panel > a:hover,
+#sidebar .nav-pills.nav-stacked > li > a:hover {
+  color: #ef3b39;
+}
+
+#sidebar .openstack-panel > a {
+  padding-left: 30px;
+  text-align: left;
+}
+
+#sidebar .openstack-panel.active > a {
+  background: #ef3b39;
+  border: none;
+  color: #f0f0f0;
+}
+
+nav,
+nav.navbar,
+nav.navbar-default {
+  border-bottom: 2px solid #ef3b39 !important;
+}
+
+.navbar-brand {
+  padding: 0 10px;
+}
+
+.navbar-brand {
+  padding: 0 10px;
+}
+
+.navbar-nav .dropdown .dropdown-toggle {
+  background: rgba(0, 0, 0, 0);
+  /*border-bottom: 2px solid transparent;*/
+  color: #444444;
+  transition: all 0.25s ease;
+  z-index: 10;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-nav .dropdown .dropdown-toggle:hover,
+.navbar-nav .dropdown .dropdown-toggle:active,
+.navbar-nav .dropdown .dropdown-toggle:focus,
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+.context-selection > li > ul > li:not(.dropdown-header):hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-bottom-color: #ef3b39;
+  background: #ef3b39;
+  color: #f0f0f0;
+}
